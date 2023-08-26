@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    height: 850px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+header {
+    width: 100%;
+    height: 110px;
+    background-color: darkgray;
+    display: flex;
+    margin: 3px 5px;
+
+}
+
+#logo{
+    width: 10%;
+}
+
+#logo img {
+    height: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+#menu {
+    width: 90%;
+    padding: 50px;
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+
+}
+
+#menu a {
+    float: left;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-family: 'MuseoModerno', cursive;
+}
+
+#banner {
+    height: 300px;
+    margin: 3px 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#banner img {
+    height: 100%;
+}
+
+#main-content {
+    background-color: beige;
+    height: 180px;
+    display: flex;
+    clear: both;
+    margin: 3px 5px;
+}
+
+#main-content-one img {
+    float: left;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#main-content-two p{
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+#midia-content {
+    display: flex;
+    height: 130px;
+    align-items: center;
+    width: 100%;
+    margin: 3px 5px;
+}
+
+#midia-content-image {
+    float: left;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 5px auto;
+
+}
+
+#midia-content-image img {
+    height: 120px;
+}
+
+#main-content-double {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    margin: 3px 5px;
+    background-color: lavender;
+
+}
+
+.main-content-double-text {
+    float: left;
+    text-align: justify;
+    padding: 10px;
+}
+
+.main-content-double img {
+    float: left;
+    height: 100%;
+}
+
+footer {
+    background-color: darkgrey;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    margin: 3px 5px;
+    clear: both;
+}
+
+#rodape {
+    width: 25%;
+    float: left;
+    margin: 5px 10px;
+    border: 2px dotted lightgreen;
+}
